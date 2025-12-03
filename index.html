@@ -8,73 +8,77 @@
     <link rel="stylesheet" href="./asset/css/styles.css">
 <head>
 <body>
-    <div>
+    <div id="centrer_page">
         <header>
             <div>
-                <img src="./asset/img/image_profile.jpg" width="130px" height="130px" alt="photo de profile vièrge">
+                <img src="./asset/img/image_profile.jpg" width="90px" height="90px" alt="photo de profile vièrge" id="photo">
             </div>
-            <div>
-                <div>
+            <div id="title_nav">
+                <div id="title">
                     <h1 class="font_title">Théo GODINHO FERREIRA</h1>
-                    <span>Développeur Web et Web Mobile</span>
+                    <span class="text_header"><strong>Développeur Web et Web Mobile</strong></span>
                 </div>
                 <div>
                     <nav>
                         <div><!--Check les icons-->
                             <img src="./asset/img/enveloppe.jpg" width="15px" height="15px" alt="l'icon d'une enveloppe">
-                            <a href="mailto:godinhotheo1903@gmail.com">Mail</a><!--+insérer une adresse mail-->
+                            <a href="mailto:godinhotheo1903@gmail.com" class="text_header">Mail</a><!-- +insérer une adresse mail-->
                         </div>
                         <div>
                             <img src="./asset/img/accueil_1.jpg" width="15px" height="15px" alt="l'icon d'une maison">
-                            <a href="https://www.google.fr/maps/@46.047704,1.4186999,11z?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D">Adresse</a>
+                            <a href="https://www.google.fr/maps/@46.047704,1.4186999,11z?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" class="text_header">Adresse</a>
                         </div>
                         <div>
                             <img src="./asset/img/telephone_1.jpg" width="15px" height="15px" alt="l'icon d'un téléphone">
-                            <a href="tel+">Téléphone</a><!--+insérer un numéro de téléphone-->
+                            <a href="tel+" class="text_header">Téléphone</a><!-- +insérer un numéro de téléphone-->
                         </div>
                     </nav>
                 </div>
             </div>
         </header>
-        <main>
-            <div>
-                <section>
+        <main id="main">
+            <div id="sections">
+                <section id="section_gauche">
                     <div>
                         <h2 class="font_title">Compétences</h2>
                         <hr>
-                        <div ><!--Space-between-->
-                            <span>HTML</span>
-                            <span>&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</span>
-                        </div>
-                        <div>
-                            <span>CSS</span>
-                            <span>&#x2605;&#x2605;&#x2605;&#x2606;&#x2606;</span>
-                        </div>
-                        <div>
-                            <span>Javascript</span>
-                            <span>&#x2606;&#x2606;&#x2606;&#x2606;&#x2606;</span>
-                        </div>
-                        <div>
-                            <span>PHP</span>
-                            <span>&#x2606;&#x2606;&#x2606;&#x2606;&#x2606;</span>
+                        <div class="hauteur_ligne">
+                            <div class="space-between">
+                            <span><b>HTML</b></span>
+                            <span class="bleu">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</span>
+                            </div>
+                            <div class="space-between">
+                            <span><b>CSS</b></span>
+                            <span class="bleu">&#x2605;&#x2605;&#x2605;&#x2606;&#x2606;</span>
+                            </div>
+                            <div class="space-between">
+                            <span><b>Javascript</b></span>
+                            <span class="bleu">&#x2606;&#x2606;&#x2606;&#x2606;&#x2606;</span>
+                            </div>
+                            <div class="space-between">
+                            <span><b>PHP</b></span>
+                            <span class="bleu">&#x2606;&#x2606;&#x2606;&#x2606;&#x2606;</span>
+                            </div>
                         </div>
                     </div>
                     <div>
                         <h2 class="font_title">Langues</h2>
                         <hr>
-                        <div>
-                            <span>Français</span>
+                        <div class="hauteur_ligne">
+                            <div class="space-between">
+                            <span><b>Français</b></span>
                             <span>Langue maternelle</span>
-                        </div>
-                        <div>
-                            <span>Anglais</span>
+                            </div>
+                            <div class="space-between">
+                            <span><b>Anglais</b></span>
                             <span>B1</span>
-                        </div>
+                            </div>
+                        </div>     
                     </div>
                     <div>
                         <h2 class="font_title">Qualités</h2>
                         <hr>
-                        <ul><!--list-style-type square bleu-->
+                        <ul>
                             <li>Esprit d'équipe</li>
                             <li>Autonomie</li>
                             <li>Créativité</li>
@@ -91,24 +95,21 @@
                         </ul>
                     </div>
                 </section>
-            </div>
-            <div>
-                <section>
+                <section id="section_droite">
                     <div>
                         <h2 class="font_title">Profil</h2>
                         <hr>
                         <p>
-                            <!--text-indent-->Récemment diplomé d'un titre professionnel en développement web, je cherche un emploi en entreprise afin des partager mes compétences, en faire profiter à une clientèle dans le besoin, et les améliorer. 
-                            <!--je n'ai pas d'insparation pour une bonne présentation-->
+                            Récemment diplomé d'un titre professionnel en développement web, je cherche un emploi en entreprise afin des partager mes compétences, en faire profiter à une clientèle dans le besoin, et les améliorer. 
                         </p>
                     </div>
                     <div><!--au survole fond en gris et ligne vertical gauche en bleu-->
                         <h2 class="font_title">Formation</h2>
                         <hr>
-                        <div><!--doute sur l'agencement des div-->
-                            <div>
-                                <span>Titre Professionnel DWWM</span>
-                                <span><time datetime="2025">2025</time>/<time datetime="2026">2026</time></span>
+                        <div class="fond_gris">
+                            <div class="space-between">
+                                <span><b>Titre Professionnel DWWM</b></span>
+                                <span class="bleu"><time datetime="2025">2025</time>/<time datetime="2026">2026</time></span>
                             </div>
                             <span><small><i>Centre Européen de Formation</i></small></span>
                         </div>
@@ -116,17 +117,17 @@
                     <div>
                         <h2 class="font_title">Stages</h2>
                         <hr>
-                        <div>
-                            <div>
-                                <span>Travail en cuisine d'une boulangerie, pâtisserie</span>
-                                <span><time datetime="2018">2018/<time datemtime="2019">2019</time></span>
+                        <div class="fond_gris">
+                            <div class="space-between">
+                                <span><b>Travail en cuisine d'une boulangerie, pâtisserie</b></span>
+                                <span class="bleu"><time datetime="2018">2018/<time datemtime="2019">2019</time></span>
                             </div>
                             <span><small><i>Au Plaisir du Palais</i></small></span>
                         </div>
-                        <div>
-                            <div>
-                                <span>Vendeur en boulangerie, pâtisserie</span>
-                                <span><time datetime="2018">2018/<time datemtime="2019">2019</time></span>
+                        <div class="fond_gris">
+                            <div class="space-between">
+                                <span><b>Vendeur en boulangerie, pâtisserie</b></span>
+                                <span class="bleu"><time datetime="2018">2018/<time datemtime="2019">2019</time></span>
                             </div>
                             <span><small><i>Au Plaisir du Palais</i></small></span>
                         </div>
