@@ -30,15 +30,15 @@ body {
     font-family: "Raleway";
     src: url('../font/Raleway-Bold-Copie.woff');
     src: url('../font/Raleway-Bold.ttf') format('truetype'),
-    url('../font/Raleway-Bold-Copie-_2_.otf') format('opentype')
+    url('../font/Raleway-Bold-Copie-_2_.otf') format('opentype');
     font-family: "Raleway";
     src: url('../font/Raleway-Italic-Copie.woff');
     src: url('../font/Raleway-Italic.ttf') format('truetype'),
-    url('../font/Raleway-Italic-Copie-_2_.otf') format('opentype')
+    url('../font/Raleway-Italic-Copie-_2_.otf') format('opentype');
     font-family: "Raleway";
     src: url('../font/Raleway-Regular-Copie.woff');
     src: url('../font/Raleway-Regular.ttf') format('truetype'),
-    url('../font/Raleway-Regular-Copie-_2_.otf') format('opentype')
+    url('../font/Raleway-Regular-Copie-_2_.otf') format('opentype');
 }
 
 .font_title {
