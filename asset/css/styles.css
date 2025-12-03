@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Lato";
+    src: url('../font/Lato-Bold-Copie.woff');
+    src: url('../font/Lato-Bold.ttf') format('truetype'),
+    url('../font/Lato-Bold-Copie-_2_.otf') format('opentype');
+    font-family: "Lato";
+    src: url('../font/Lato-Italic-Copie.woff');
+    src: url('../font/Lato-Italic.ttf') format('truetype'),
+    url('../font/Lato-Italic-Copie-_2_.otf') format('opentype');
+    font-family: "Lato";
+    src: url('../font/Lato-Regular-Copie.woff');
+    src: url('../font/Lato-Regular.ttf') format('truetype'),
+    url('../font/Lato-Regular-Copie-_2_.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../font/Raleway-Bold-Copie.woff');
+    src: url('../font/Raleway-Bold.ttf') format('truetype'),
+    url('../font/Raleway-Bold-Copie-_2_.otf') format('opentype')
+    font-family: "Raleway";
+    src: url('../font/Raleway-Italic-Copie.woff');
+    src: url('../font/Raleway-Italic.ttf') format('truetype'),
+    url('../font/Raleway-Italic-Copie-_2_.otf') format('opentype')
+    font-family: "Raleway";
+    src: url('../font/Raleway-Regular-Copie.woff');
+    src: url('../font/Raleway-Regular.ttf') format('truetype'),
+    url('../font/Raleway-Regular-Copie-_2_.otf') format('opentype')
+}
+
+.font_title {
+    font-family: "Lato", sans-serif;
+}
+
+* {
+    font-family: "Raleway", sans-serif;
+}
