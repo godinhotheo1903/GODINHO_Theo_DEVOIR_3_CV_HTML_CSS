@@ -73,6 +73,7 @@ header {
 #title_nav {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 #title {
@@ -133,6 +134,8 @@ ul {
 
 .fond_gris:hover {
     background-color: #333333;
+    border: solid 4px;
+    border-color: #333333 #333333 #333333 #17abb3;
 }
 
 a {
@@ -141,4 +144,14 @@ a {
 
 footer {
     background-color: #17abb3;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#maj {
+    color: #ffffff;
 }
